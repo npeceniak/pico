@@ -19,7 +19,7 @@ def blink_loop():
         led_red.value(gen_random())
         led_green.value(gen_random())
         led_blue.value(gen_random())
-        utime.sleep(1)
+        utime.sleep(0.5)
 
         print(f'End of loop {counter}')
         
