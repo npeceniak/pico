@@ -1,15 +1,8 @@
-from machine import Pin
-import time
-import os
+# This file will run automatically when the Pi is powered up.
 
-os.listdir()
-
-pin = Pin(25, Pin.OUT)
-
+# Import modules from the src directory here
+import src.RGB_Blink as RGB_Blink
 print("Running Main.py")
-counter = 0
-while True:
-    counter+=1
-    pin.toggle()
-    time.sleep_ms(1000)
-    print("Seconds Running: " + str(counter))
+
+# Call any functions from the imported modules above here
+RGB_Blink.run()

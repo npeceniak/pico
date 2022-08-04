@@ -1,0 +1,15 @@
+{
+    "sync_folder": "",
+    "open_on_start": true,
+    "py_ignore": [
+        "pico-go.json",
+        ".vscode",
+        ".gitignore",
+        ".git",
+        "project.pico-go",
+        "env",
+        "venv",
+        "README.md",
+        "LICENSE"
+    ]
+}
