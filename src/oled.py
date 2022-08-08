@@ -1,5 +1,5 @@
 import machine
-from lib.ssd1306 import SSD1306_I2C
+from deps.ssd1306 import SSD1306_I2C
 import src.Potentiometer as POT
 import time
 
