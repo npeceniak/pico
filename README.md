@@ -19,3 +19,8 @@ Install Required Extensions
 
 - Mircopython installed and running on a Rasberry Pi Pico.
     - See https://www.raspberrypi.com/documentation/microcontrollers/micropython.html
+
+
+### Extenal Dependencies 
+
+- https://github.com/stlehmann/micropython-ssd1306
