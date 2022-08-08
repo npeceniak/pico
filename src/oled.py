@@ -15,6 +15,7 @@ def run():
         convertedBarValue = int(POT.readPotValue() / 512)
         print(f"Bar size: {convertedBarValue}")
         oled.fill(0)
-        oled.fill_rect(0, 0, convertedBarValue, HEIGHT, 1)
+        oled.text(f"Bar size: {convertedBarValue}", 0, 0)
+        oled.fill_rect(0, 17, convertedBarValue, HEIGHT, 1)
         oled.show()
         time.sleep_ms(100)
